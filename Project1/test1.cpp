@@ -1,5 +1,6 @@
 #include <iostream>
 #include "mymath.h"
+#include "booleanstuff.h"
 using namespace std;
 
 int main()
@@ -9,4 +10,9 @@ int main()
 	cout << add(a, b) << endl;
 	cout << subtract(a, b) << endl;
 	cout << multiply(a, b) << endl;
+	
+	bool happy = true;
+	bool sad = false;
+	bool isHappyAndSad = isTrue(happy, sad);
+	cout << isHappyAndSad << endl;
 }
