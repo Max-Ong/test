@@ -1,6 +1,5 @@
 #include <iostream>
-#include "add.h"
-#include "subtract.h"
+#include "mymath.h"
 using namespace std;
 
 int main()
@@ -9,4 +8,5 @@ int main()
 	cin >> a >> b;
 	cout << add(a, b) << endl;
 	cout << subtract(a, b) << endl;
+	cout << multiply(a, b) << endl;
 }
