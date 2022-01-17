@@ -1,6 +1,5 @@
 #include <iostream>
-#include "add.h"
-#include "subtract.h"
+#include "mymath.h"
 #include "divide.h"
 using namespace std;
 
