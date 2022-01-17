@@ -15,4 +15,5 @@ int main()
 	cout << multiply(a, b) << endl;
 	cout << square(a) << endl;
 	cout << plusplus(a) << endl;
+	cout << "Hello world";
 }
