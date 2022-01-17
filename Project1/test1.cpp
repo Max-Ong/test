@@ -14,4 +14,5 @@ int main()
 	cout << divide(a, b) << endl;
 	cout << multiply(a, b) << endl;
 	cout << square(a) << endl;
+	cout << plusplus(a) << endl;
 }
