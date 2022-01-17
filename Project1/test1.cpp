@@ -1,6 +1,7 @@
 #include <iostream>
 #include "mymath.h"
 #include "booleanstuff.h"
+#include "divide.h"
 using namespace std;
 
 int main()
@@ -15,4 +16,5 @@ int main()
 	bool sad = false;
 	bool isHappyAndSad = isTrue(happy, sad);
 	cout << isHappyAndSad << endl;
+	cout << divide(a, b) << endl;
 }
